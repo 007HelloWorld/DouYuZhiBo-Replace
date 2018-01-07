@@ -74,6 +74,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E43C3EF20020FC800307082 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E43C3F020020FD500307082 /* Main */,
+				8E43C3F120020FE300307082 /* Home */,
+				8E43C3F220020FF400307082 /* Live */,
+				8E43C3F32002100700307082 /* Follow */,
+				8E43C3F42002101E00307082 /* Profile */,
+				8E43C3F52002102900307082 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8E43C3F020020FD500307082 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8E43C3F120020FE300307082 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8E43C3F220020FF400307082 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		8E43C3F32002100700307082 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		8E43C3F42002101E00307082 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8E43C3F52002102900307082 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		8EAD569F200102B2003F36B9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +152,7 @@
 		8EAD56AA200102B2003F36B9 /* DouYuZhiBo */ = {
 			isa = PBXGroup;
 			children = (
+				8E43C3EF20020FC800307082 /* Classes */,
 				8EAD56AB200102B2003F36B9 /* AppDelegate.swift */,
 				8EAD56AD200102B2003F36B9 /* ViewController.swift */,
 				8EAD56AF200102B2003F36B9 /* Main.storyboard */,
@@ -426,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -440,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
